@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"xbmc",
+				"xbmcplugin"
+			],
+			[
+				"Color",
+				"Color	Color(r, g, b, a)"
+			],
+			[
+				"Co",
+				"Color	Color(r, g, b, a)"
+			],
+			[
+				"Dra",
+				"DrabWeb_Drabweb@Snoonet"
+			],
+			[
+				"Drab",
+				"DrabWeb_"
+			],
+			[
+				"note",
+				"note"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"Des",
+				"Destroy"
+			],
+			[
+				"Spaw",
+				"SpawnEmitter"
+			],
+			[
+				"Wa",
+				"WaitForSeconds"
+			],
+			[
+				"inti",
+				"initialRotationX"
+			],
+			[
+				"Edio",
+				"EditorGUILayout"
+			],
+			[
+				"Objects",
+				"ObjectsToActivate"
+			],
+			[
+				"Show",
+				"ShowActivatorObjects"
+			],
+			[
+				"Normal",
+				"NormalMapGen"
+			],
+			[
+				"Bump",
+				"BumpMap"
+			],
+			[
+				"new",
+				"newTexture"
+			],
+			[
+				"main",
+				"mainTexture"
+			],
+			[
+				"direc",
+				"Directory"
+			],
+			[
+				"Texture",
+				"TexturePackTexture"
+			],
+			[
+				"TextureTex",
+				"TexturePackTextures"
+			],
+			[
+				"TexturePac",
+				"TexturePackTexture"
+			],
+			[
+				"GetPa",
+				"GetParent"
+			],
+			[
+				"GetC",
+				"GetComponent	type"
+			],
+			[
+				"Rot",
+				"RotateAround	point, axis, angle"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nAnaconda:\n--------\n\n  # Anaconda\n  \n  Anaconda turns your Sublime Text 3 into a full featured Python IDE. Read the plugin documentation on [http://damnwidget.github.io/anaconda](http://damnwidget.github.io/anaconda).\n  \n  [![Build Status](https://www.gitbook.io/button/status/book/damnwidget/anacondast3-developers-documentation)](https://www.gitbook.io/book/damnwidget/anacondast3-developers-documentation/activity)\n  \n  # Getting Started \n  \n  Anaconda works out of the box but there are multitude of options and features that you can tune and adapt to your own style or needs.\n  \n  * [Autocompletion on dot](http://damnwidget.github.io/anaconda/IDE/#toc_3)\n  * [Powerful IDE](http://damnwidget.github.io/anaconda/IDE/)\n  * [Advanced Configuration](http://damnwidget.github.io/anaconda/anaconda_settings/)\n  * [Run Tests using Anaconda](http://damnwidget.github.io/anaconda/tests_runner/)\n  * [Linting theme customization](http://damnwidget.github.io/anaconda/IDE/#toc_50)\n  * [Using Vagrant Environments](http://damnwidget.github.io/anaconda/vagrant/)\n  \n  # License\n  \n  This program is distributed under the terms of the GNU GPL v3. See the [LICENSE](https://raw.github.com/DamnWidget/anaconda/master/LICENSE) file for details.\n  \n  # Troubleshootings\n  \n  Guide to solve common issues\n  \n  ## Anaconda does not appear in the available packages list on Package Control\n  \n  You have to update your package control version to the version 2.0 or better\n  \n  ## I get errors in the console about \"the file can't be open\" in worker.py file\n  \n  Your sublime text can't find the interpreter that you set in your configuration, by default, anaconda set this as `python` so it will get your configured Python interpreter in your PATH (if any)\n  \n  # Contributing with Anaconda\n  \n  There are several ways to contribute with anaconda.\n  \n  **important**: there is a [Developers Documentation book](http://damnwidget.gitbooks.io/anacondast3-developers-documentation/) that is maintained up to date with the last information about anaconda internals and useful information about how to contribute with the project\n  \n  ## Feedback\n  \n  * By giving feedback about the plugin and how it works in your platform.\n  * By reporting bugs in the issue tracker\n  * By sharing your ideas with us\n  \n  ## Bug Hunting\n  \n  Did you found a bug and you know how to fix it? First of all, thank you very much. You just have to report the bug as a new issue, fork the repository, make your changes and send a new pull request.\n  \n  ## Feature Implementor\n  \n  So you thougth about a new killer feature to implement in Anaconda?. Great!. Open an issue tagged as \"Feature\" and we will discuss it with you.\n  \n  ## Donations\n  \n  Just donate to maintain this project alive.\n  \n  [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KP7PAHR962UGG&lc=US&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)\n  [<img src=\"https://api.flattr.com/button/flattr-badge-large.png\" />][0]\n  [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/de124b4ffd37f6c0491ee7e4de3ec4cc \"githalytics.com\")](http://githalytics.com/DamnWidget/anaconda)\n  [0]: http://flattr.com/thing/1765332/DamnWidgetanaconda-on-GitHub\n  \n\n\nSublimeLinter-pyflakes:\n----------------------\n\n  SublimeLinter-pyflakes\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pyflakes.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pyflakes\n  \n\n\nSublimeLinter-pep8:\n------------------\n\n  SublimeLinter-pep8\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pep8.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-pep8\n  \n",
+			"settings":
+			{
+				"buffer_size": 4047,
+				"line_ending": "Unix",
+				"name": "Package Control Messages"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"Disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Remove P",
+				"Package Control: Remove Package"
+			],
+			[
+				"Create Packa",
+				"Package Control: Create Package File"
+			],
+			[
+				"UnHi",
+				"PersistentRegexHighlight: Unhighlight Current File"
+			],
+			[
+				"RegexHi",
+				"PersistentRegexHighlight: Highlight Current File"
+			],
+			[
+				"ListP",
+				"Package Control: List Packages"
+			],
+			[
+				"SnippetMaker",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"New Syn",
+				"z:AAAPackageDev: New JSON Syntax Definition"
+			],
+			[
+				"Linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"Disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"SublimeLInter",
+				"SublimeLinter: Create Linter Plugin"
+			],
+			[
+				"SublimeLinter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"Create Li",
+				"SublimeLinter: Create Linter Plugin"
+			],
+			[
+				"List P",
+				"Package Control: List Packages"
+			],
+			[
+				"Remove Pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Git Add",
+				"Git: Add..."
+			],
+			[
+				"List",
+				"Package Control: List Packages"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 255.0,
+		"history":
+		[
+			"view.run_command('AppendThemeWithSelectedText')",
+			"view.run_command('example')",
+			"clear",
+			"view.run_command('example')",
+			"help",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Seth/Library/Application Support/XBMC/addons/plugin.video.dramafever"
+	],
+	"file_history":
+	[
+		"/Users/Seth/Library/Application Support/XBMC/addons/plugin.video.dramafever/default.py",
+		"/Volumes/Storage/OSX Folders/Documents/Projects/Xamarin/Xamarin-Templates-master/README.md",
+		"/Volumes/Storage/OSX Folders/Development/Sumo Animals/Assets/Scripts (Mine)/UI/Preferences.cs",
+		"/Volumes/Storage/OSX Folders/Development/Sumo Animals/Material Icons/core/arrow-back.svg",
+		"/Volumes/Storage/OSX Folders/Documents/Projects/SoSoSwift Tutorials/Menubar App/Menubar App/Preferences.txt",
+		"/Volumes/Storage/OSX Folders/Downloads/Becky-aka-Demiurgic-Pikachu.svg"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+			"/Volumes/Storage/OSX Folders/Development/Sumo Animals/Assets/TouchKit/",
+			"~/Development/Scurge-of-the-Shadows-2.0/Assets/IndieEffects/Classes/",
+			"~/Development/Scurge-of-the-Shadows-2.0/Assets/Scripts(Mine)",
+			"~/Develpment/Scurge-of-the-Shadows-2.0/Assets/Scripts(Mine)"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"accentColor",
+			"materialColorSet.accentMaterialColor ",
+			".",
+			"[MenuItem(\"TouchKit",
+			"')",
+			"'",
+			",",
+			"delay",
+			"Mana",
+			"Canvas",
+			"korean",
+			"DrabWeb",
+			"IndieEffects",
+			"\"",
+			".css",
+			"IMG",
+			"SwingCool",
+			"Cooldown",
+			"RemoveIndex",
+			"Quit",
+			"c++",
+			"appeneded",
+			"SublimeLinter",
+			"'SublimeLinter'",
+			"/",
+			"Mono",
+			"int",
+			"allWalls"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"selectedAccentColorDropdown",
+			"inputColor ",
+			"[MenuItem(\"Tools/TouchKit",
+			"' || inputChar == 'CAPITAL')",
+			", 3, ",
+			"IndieEffectsJS",
+			"ObjectRemoveIndex",
+			"c#"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4047,
+								4047
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "Package Control Messages",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"function_name_status_row": -1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1039.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"enemyst",
+				"Scripts(Mine)/EnemyStats.cs"
+			],
+			[
+				"enemyh",
+				"Scripts(Mine)/EnemyCatcher.cs"
+			],
+			[
+				"held",
+				"Scripts(Mine)/HeldItem.cs"
+			],
+			[
+				"inve",
+				"Scripts(Mine)/Inventory.cs"
+			],
+			[
+				"heldi",
+				"Scripts(Mine)/HeldItem.cs"
+			],
+			[
+				"cine",
+				"Scripts(Mine)/Cinematic.cs"
+			],
+			[
+				"text",
+				"Scripts(Mine)/Texture Pack/TexturePack.cs"
+			],
+			[
+				"ai.cs",
+				"Scripts(Mine)/AI.cs"
+			],
+			[
+				"chest",
+				"Scripts(Mine)/HOUnity/HOSystemInfo.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 391.0,
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

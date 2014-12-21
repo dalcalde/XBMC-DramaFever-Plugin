@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+	id="plugin.video.dramafever" 
+	name="DramaFever" 
+	version="0.1" 
+	provider-name="zaegames-drabweb.rhcloud.com">
+
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">DramaFever</summary>
+
+		<description lang="en">Watch DramaFever From XBMC/Kodi</description>
+
+		<disclaimer lang="en"></disclaimer>
+
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+
+		<platform>all</platform>
+
+		<language>en</language>
+
+		<website>http://zaegames-drabweb.rhcloud.com</website>
+
+		<source>https://github.com/DrabWeb/XBMC-DramaFever-Plugin</source>
+	</extension>
+</addon>
